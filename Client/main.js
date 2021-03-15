@@ -12,7 +12,7 @@ window.onload = () => {
     aJax('http://localhost:1337/Server/server.php')
     setInterval(() => {
         aJax('http://localhost:1337/Server/server.php')
-    }, 10000);
+    }, 1000);
 }
 
 
