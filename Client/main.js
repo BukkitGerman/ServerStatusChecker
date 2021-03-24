@@ -7,11 +7,12 @@ title = wrapper.querySelector('span'),
 subtitle = wrapper.querySelector('p'),
 closeIcon = wrapper.querySelector('.close-icon');
 
+const url = 'http://localhost:1337/Server/server.php';
 
 window.onload = () => {
-    aJax('http://localhost:1337/Server/server.php')
+    aJax(url)
     setInterval(() => {
-        aJax('http://localhost:1337/Server/server.php')
+        aJax(url)
     }, 1000);
 }
 
